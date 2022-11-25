@@ -29,7 +29,7 @@ library(psych)
 
 This chunk sets up some dummy circadian data (it's from the 'cosinor' function page of 'psych.pdf'):
 
-```{r-create data}
+```{r create data}
 
 
 time <- seq(1:24) #create a 24 hour time
@@ -47,7 +47,7 @@ pure <- data.frame(time,cos((pure - col(pure))*pi/12)*3 + 3)
 
 The `echo: false` option disables the printing of code (only output is displayed).
 
-```{r plor-curves}
+```{r plot-curves}
 
 
 matplot(pure[-1],type="l",main="Pure circadian arousal rhythms",
