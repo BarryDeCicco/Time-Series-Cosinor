@@ -71,7 +71,7 @@ p
 
 ```{r plot-more-plots}
 
-op <- par(mfrow=c(2,2))
+op <- par(mfrow=c(1,3))
 cosinor.plot(1,2,pure)
 cosinor.plot(1,5,pure)
 cosinor.plot(1,8,pure)
