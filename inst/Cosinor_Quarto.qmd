@@ -8,11 +8,11 @@ format:
 editor: visual
 ---
 
-## Quarto
+## Cosinar
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+This document goes through tutorials for the cosinar function of the psych pakage.
 
-## Running Code
+## Setting up Data
 
 This page
 
@@ -54,6 +54,15 @@ matplot(pure[-1],type="l",main="Pure circadian arousal rhythms",
         xlab="time of day",ylab="Arousal")
 
 
+```
+
+```{r find-acrophase}
+
+#find the acrophases (should match the input)
+
+p <- cosinor(pure) 
+
+p
 ```
 
 ```{r plot-more-plots}
