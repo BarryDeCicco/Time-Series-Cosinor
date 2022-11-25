@@ -46,3 +46,12 @@ pure <- data.frame(time,cos((pure - col(pure))*pi/12)*3 + 3)
 ```
 
 The `echo: false` option disables the printing of code (only output is displayed).
+
+```{r plor-curves}
+
+
+matplot(pure[-1],type="l",main="Pure circadian arousal rhythms",
+        xlab="time of day",ylab="Arousal")
+
+
+```
