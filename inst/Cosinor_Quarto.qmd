@@ -14,9 +14,12 @@ When you click the **Render** button a document will be generated that includes 
 
 ```{r load-libraries}
 
+#| echo: false
+
 library(tidyverse)
 library(lubridate)
 library(psych)
+
 
 ```
 
