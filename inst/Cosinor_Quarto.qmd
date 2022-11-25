@@ -10,11 +10,11 @@ editor: visual
 
 ## Cosinar
 
-This document goes through tutorials for the cosinar function of the psych pakage.
+This document goes through tutorials for the cosinor function of the psych package.
 
 ## Setting up Data
 
-This page
+This part will load the libraries
 
 ```{r load-libraries}
 
@@ -44,8 +44,6 @@ pure <- data.frame(time,cos((pure - col(pure))*pi/12)*3 + 3)
 
 
 ```
-
-The `echo: false` option disables the printing of code (only output is displayed).
 
 ```{r plot-curves}
 
