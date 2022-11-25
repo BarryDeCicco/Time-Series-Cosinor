@@ -45,6 +45,8 @@ pure <- data.frame(time,cos((pure - col(pure))*pi/12)*3 + 3)
 
 ```
 
+## Plot the 24 Curves
+
 ```{r plot-curves}
 
 
