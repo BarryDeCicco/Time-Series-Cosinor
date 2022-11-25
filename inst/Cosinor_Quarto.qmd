@@ -29,7 +29,7 @@ library(psych)
 
 This chunk sets up some dummy circadian data (it's from the 'cosinor' function page of 'psych.pdf'):
 
-```{r create data}
+```{r create-data}
 
 
 time <- seq(1:24) #create a 24 hour time
