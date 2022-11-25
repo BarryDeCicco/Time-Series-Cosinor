@@ -27,11 +27,22 @@ library(psych)
 
 ```
 
-You can add options to executable code like this
+This chunk sets up some dummy circadian data (it's from the 'cosinor' function page of 'psych.pdf'):
 
-```{r}
-#| echo: false
-2 * 2
+```{r-create data}
+
+
+time <- seq(1:24) #create a 24 hour time
+pure <- matrix(time,24,18)
+colnames(pure) <- paste0("H",1:18)
+
+time <- seq(1:24) #create a 24 hour time
+pure <- matrix(time,24,18)
+colnames(pure) <- paste0("H",1:18)
+#18 different phases but scaled to 0-6 match mood data
+pure <- data.frame(time,cos((pure - col(pure))*pi/12)*3 + 3)
+
+
 ```
 
 The `echo: false` option disables the printing of code (only output is displayed).
