@@ -65,6 +65,8 @@ p <- cosinor(pure)
 p
 ```
 
+## More plots (the parameters mean ???)
+
 ```{r plot-more-plots}
 
 op <- par(mfrow=c(2,2))
