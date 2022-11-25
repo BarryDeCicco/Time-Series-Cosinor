@@ -55,3 +55,16 @@ matplot(pure[-1],type="l",main="Pure circadian arousal rhythms",
 
 
 ```
+
+```{r plot-more-plots}
+
+op <- par(mfrow=c(2,2))
+cosinor.plot(1,3,pure)
+cosinor.plot(1,5,pure)
+cosinor.plot(1,8,pure)
+cosinor.plot(1,12,pure)
+
+```
+
+```{}
+```
